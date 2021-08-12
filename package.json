@@ -1,0 +1,21 @@
+{
+  "name": "airspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "8.2.0",
+    "cypress-cucumber-preprocessor": "4.2.0",
+    "cypress-xpath": "1.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "commonPath": "cypress/integration/step-defs/**/"
+  }
+}
